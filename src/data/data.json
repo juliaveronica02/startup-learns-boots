@@ -1,0 +1,104 @@
+{
+    "Header": {
+
+        "title": "Bootcamping Platform",
+        "paragraph": "The way to get started is to quit talking and start doing."
+    },
+    "About": {
+        "paragraph": "Bootcamp Online dengan tingkat pemula sampai profesional serta sesi seminar dan sharing session.",
+        "Why": [
+            "Course bootcamp bersifat lifetime, jadi yang memiliki gangguan internet bisa nonton kapan saja dan juga tersedia format pdf. Ataupun dapat join bootcamp online.",
+            "Software house bagi peserta yang sudah lulus bootcamp untuk ikut mengembangkan dan peserta juga dapat bekerja dengan perusahaan lain.",
+            "List bootcamp dapat diakses melalui website dan handphone serta terdapat fitur notifikasi setelah mendaftar dan fitur reminder D-Day sebelum bootcamp, sharing session dan seminar dengan syarat peserta mendownload google calendar."
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-search",
+            "name": "Search By Categories",
+            "text": "Mencari course berdasarkan bahasa pemrograman dan level (beginner / intermediate/ advanced)."
+        },
+        {
+            "icon": "fa fa-star-o",
+            "name": "Rating",
+            "text": "User dapat memberikan rating terhadap course yang telah diikuti atau yang telah dibeli sebagai masukan untuk mentor."
+        },
+        {
+            "icon": "fa fa-mortar-board",
+            "name": "Experience Mentor",
+            "text": "Bootcamp maupun materi dipimpin oleh mentor yang berpengalaman (pernah terjun ke lapangan)."
+        },
+        {
+            "icon": "fa fa-credit-card",
+            "name": "Enroll",
+            "text": "User harus enroll/purchase bootcamp ataupun course terlebih dahulu agar bisa diakses."
+        },
+        {
+            "icon": "fa fa-certificate",
+            "name": "Sertificate",
+            "text": "Setelah menyelesaikan bootcamp ataupun course akan mendapatkan sertifikat sebagai pendukung saat melamar kerja."
+        }, 
+        {
+            "icon": "fa fa-child",
+            "name": "User",
+            "text": "Course dapat diakses oleh semua user baik yang belum/sudah memiliki pengalaman."
+        }
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/1.jpeg",
+            "name": "Julia Veronica",
+            "job": "Hacker"
+        },
+        {
+            "img": "img/team/2.jpeg",
+            "name": "Katherine Oktaviani",
+            "job": "Hacker"
+        }, {
+            "img": "img/team/3.png",
+            "name": "Yu Lun",
+            "job": "Hipster"
+        }
+    ],
+    "Contact": {
+        "address": "Batam City, Kepulauan Riau, Indonesia ",
+        "phone": "+62 853-6361-7950 - Julia, +62 897-3310-970 - Katherine, +62 819-2788-8505 - Yulun",
+        "email": "learnsboots@gmail.com"
+    },
+    "Features": [
+        {
+            "icon": "fa fa-rocket",
+            "title": "",
+            "text": "Setelah bootcamp berjalan dengan lancar kedepan kami ingin mengembangkan software house dimana bekerja sama dengan perusahaan-perusahaan lain agar peserta bisa mengasah kemampuan mereka. Meminta layanan sponsor dan kerjasama dengan perusahaan besar untuk mensponsorkan  platform bootcamp, sehingga mungkin bisa membuat kursus gratis yang akan membantu bagi masyarakat yang tidak bisa membayar kursus."
+        }
+    ]
+}
