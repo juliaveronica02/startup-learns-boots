@@ -15,14 +15,15 @@ export class Contact extends Component {
                     will get back to you as soon as possible.
                   </p>
                 </div>
-                <form name="sentMessage" id="contactForm" noValidate>
+                {/* <form action="https://formspree.io/meqradna" method="POST" name="sentMessage" id="contactForm" noValidate> */}
+                <form action="https://formspree.io/meqradna" method="POST" name="sentMessage" id="contactForm" noValidate>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
                         <input
                           type="text"
-                          id="name"
                           className="form-control"
+                          name = "name"
                           placeholder="Name"
                           required="required"
                         />
@@ -34,6 +35,7 @@ export class Contact extends Component {
                         <input
                           type="email"
                           id="email"
+                          name="_replyto"
                           className="form-control"
                           placeholder="Email"
                           required="required"
@@ -45,7 +47,6 @@ export class Contact extends Component {
                   <div className="form-group">
                     <textarea
                       name="message"
-                      id="message"
                       className="form-control"
                       rows="4"
                       placeholder="Message"
@@ -54,7 +55,7 @@ export class Contact extends Component {
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
+                  <button type="submit" value="Send" className="btn btn-custom btn-lg">
                     Send Message
                   </button>
                 </form>
@@ -117,7 +118,7 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; Learn's Boots - 2021
+              &copy; Teknokasi - 2021
             </p>
           </div>
         </div>

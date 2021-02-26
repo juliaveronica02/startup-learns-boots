@@ -24,7 +24,7 @@
         },
         {
             "icon": "fa fa-mortar-board",
-            "name": "Experience Mentor",
+            "name": "Experienced Mentor",
             "text": "Bootcamp maupun materi dipimpin oleh mentor yang berpengalaman (pernah terjun ke lapangan)."
         },
         {
@@ -34,13 +34,18 @@
         },
         {
             "icon": "fa fa-certificate",
-            "name": "Sertificate",
+            "name": "Certification",
             "text": "Setelah menyelesaikan bootcamp ataupun course akan mendapatkan sertifikat sebagai pendukung saat melamar kerja."
         }, 
         {
             "icon": "fa fa-child",
             "name": "User",
             "text": "Course dapat diakses oleh semua user baik yang belum/sudah memiliki pengalaman."
+        },
+        {
+            "icon": "fa fa-briefcase",
+            "name": "Employement Opportunity",
+            "text": "Learn's Boots memberi kemudahan mencari karir melalui partner kami."
         }
     ],
     "Testimonials": [{
@@ -82,9 +87,9 @@
         {
             "img": "img/team/2.jpeg",
             "name": "Katherine Oktaviani",
-            "job": "Hacker"
+            "job": "Hustler"
         }, {
-            "img": "img/team/3.png",
+            "img": "img/team/3.jpeg",
             "name": "Yu Lun",
             "job": "Hipster"
         }
@@ -92,7 +97,7 @@
     "Contact": {
         "address": "Batam City, Kepulauan Riau, Indonesia ",
         "phone": "+62 853-6361-7950 - Julia, +62 897-3310-970 - Katherine, +62 819-2788-8505 - Yulun",
-        "email": "learnsboots@gmail.com"
+        "email": "teknokasi@gmail.com"
     },
     "Features": [
         {

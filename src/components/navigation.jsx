@@ -18,8 +18,8 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              Learn's Boots
+            <a className="navbar-brand page-scroll" href="#page-top" style={{color:"#5ae6bf"}}>
+              TEKNOKASI
             </a>{" "}
           </div>
 
