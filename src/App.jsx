@@ -5,10 +5,13 @@ import Features from './components/features';
 import About from './components/about';
 import Services from './components/services';
 import Gallery from './components/gallery';
+// import LoginPage from "./components/loginpage";
+// import SignUp from "./components/signup.component";
 // import Testimonials from './components/testimonials';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
+// import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 
 export class App extends Component {
   state = {

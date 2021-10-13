@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import LoginPage from "./loginpage";
 
 export class Navigation extends Component {
   render() {
     return (
+      <Router>
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
           <div className="navbar-header">
@@ -64,14 +67,20 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <a href="#signup">
+                <Link to="/loginpage">
                   SignUp
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+      <Switch>
+        <Route path="/loginpage" component={LoginPage}>
+          {/* <LoginPage /> */}
+        </Route>
+      </Switch>
+      </Router>
     );
   }
 }
