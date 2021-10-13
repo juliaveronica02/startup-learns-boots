@@ -1,8 +1,8 @@
 {
     "Header": {
 
-        "title": "Bootcamping Platform",
-        "paragraph": "The way to get started is to quit talking and start doing."
+        "title": "Platform Edukasi IT",
+        "paragraph": "We create professionals from subzeroes"
     },
     "About": {
         "paragraph": "Bootcamp Online dengan tingkat pemula sampai profesional serta sesi seminar dan sharing session.",
@@ -44,8 +44,8 @@
         },
         {
             "icon": "fa fa-briefcase",
-            "name": "Employement Opportunity",
-            "text": "Learn's Boots memberi kemudahan mencari karir melalui partner kami."
+            "name": "Employment Opportunity",
+            "text": "Teknokasi memberi kemudahan mencari karir melalui partner kami."
         }
     ],
     "Testimonials": [{
@@ -97,7 +97,9 @@
     "Contact": {
         "address": "Batam City, Kepulauan Riau, Indonesia ",
         "phone": "+62 853-6361-7950 - Julia, +62 897-3310-970 - Katherine, +62 819-2788-8505 - Yulun",
-        "email": "teknokasi@gmail.com"
+        "email": "teknokasi.edu@gmail.com",
+        "instagram" : "https://www.instagram.com/teknokasi.edutech",
+        "youtube" : "https://www.youtube.com/channel/UCQzW9u-tg4_Pd4mcHyDvMFQ"
     },
     "Features": [
         {

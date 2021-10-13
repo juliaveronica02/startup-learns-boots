@@ -15,7 +15,6 @@ export class Header extends Component {
                   </h1>
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"} <br/>
-                    <p>~ Walt Disney ~</p>
                   </p>
                   <a
                     href="#features"

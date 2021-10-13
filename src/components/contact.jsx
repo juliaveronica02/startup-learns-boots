@@ -93,15 +93,8 @@ export class Contact extends Component {
                 <div className="social">
                   <ul>
                     <li>
-                      <a
-                        href={this.props.data ? this.props.data.facebook : "/"}
-                      >
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.twitter : "/"}>
-                        <i className="fa fa-twitter"></i>
+                      <a href={this.props.data ? this.props.data.instagram : "/"}>
+                        <i className="fa fa-instagram"></i>
                       </a>
                     </li>
                     <li>
@@ -118,7 +111,7 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; Teknokasi - 2021
+              &copy; Teknokasi Edutech - {(new Date().getFullYear())}
             </p>
           </div>
         </div>
