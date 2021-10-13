@@ -63,6 +63,11 @@ export class Navigation extends Component {
                   Contact
                 </a>
               </li>
+              <li>
+                <a href="#signup">
+                  SignUp
+                </a>
+              </li>
             </ul>
           </div>
         </div>
