@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import Login from "./login.component";
+import SignUp from "./signup.component";
 
 export class Navigation extends Component {
   render() {
-    return (
+    return (<Router>
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
           <div className="navbar-header">
@@ -63,15 +65,26 @@ export class Navigation extends Component {
                   Contact
                 </a>
               </li>
-              <li>
-                <a href="#signup">
-                  SignUp
-                </a>
+              <li className="nav-item">
+                <Link className="nav-link" to={"/sign-in"}>Login</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to={"/sign-up"}>Sign up</Link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+       <div className="auth-wrapper">
+        <div className="auth-inner">
+          <Switch>
+            <Route exact path='/' component={Login} />
+            <Route path="/sign-in" component={Login} />
+            <Route path="/sign-up" component={SignUp} />
+          </Switch>
+        </div>
+      </div>
+    </Router>  
     );
   }
 }
