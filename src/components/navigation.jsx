@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import LoginPage from "./loginpage";
+import {Link} from  "react-router-dom"
 
-export class Navigation extends Component {
+class Navigation extends Component {
   render() {
     return (
-      <Router>
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
           <div className="navbar-header">
@@ -67,20 +65,14 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <Link to="/loginpage">
-                  SignUp
+                <Link className="btn btn-outline-primary mr-4" href="/loginpage">
+                  SignIn
                 </Link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <Switch>
-        <Route path="/loginpage" component={LoginPage}>
-          {/* <LoginPage /> */}
-        </Route>
-      </Switch>
-      </Router>
     );
   }
 }

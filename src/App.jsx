@@ -11,7 +11,8 @@ import Gallery from './components/gallery';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
-// import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import LoginPage from "./components/loginpage";
 
 export class App extends Component {
   state = {
@@ -28,6 +29,7 @@ export class App extends Component {
   render() {
     return (
       <div>
+        <Router> 
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <Features data={this.state.landingPageData.Features} />
@@ -37,6 +39,10 @@ export class App extends Component {
         {/* <Testimonials data={this.state.landingPageData.Testimonials} /> */}
         <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />
+          <Switch>
+            <Router path="/loginpage" component={LoginPage} />
+          </Switch>
+        </Router>
       </div>
     )
   }
